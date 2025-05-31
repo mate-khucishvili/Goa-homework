@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>კეთილი იყოს თქვენი მომბრძანება ჩემ საიტზე</h1>
+    </header>
+    
+    <nav>
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="destinations" class="content">
+            <h2>ენები</h2>
+            <article>
+                <p>ენები რომლებიც მე მომწონს</p>
+                <ol>
+                    <li>France</li>
+                    <li>Italy</li>
+                    <li>Germany</li>
+                </ol>
+                <hr>
+                <h3>ქვეყნები</h3>
+                <p>საქართველოს გარდა მე მოწონს ყვეყნები:</p>
+                <ul>
+                    <li>Japan</li>
+                    <li>Thailand</li>
+                    <li>Italy</li>
+                </ul>
+            </article>
+            <br>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>გოას ფოტოები:</p>
+            <img src="goa.jpg" alt="goa 1" width="200">
+            <img src="goa.jpg" alt="goa 2" width="200">
+            <img src="goa.jpg" alt="goa 3" width="200">
+            <br>
+            <img src="goa.jpg" alt="goa 4" width="200">
+            <img src="goa.jpg" alt="goa 5" width="200">
+            <img src="goa.jpg" alt="goa 6" width="200">
+            <br>
+            <img src="goa.jpg" alt="goa 7" width="200">
+            <img src="goa.jpg" alt="goa 8" width="200">
+            <img src="goa.jpg" alt="goa 9" width="200">
+            <br>
+            <img src="goa.jpg" alt="goa 10" width="200">
+            <hr>
+            <h3>Videos</h3>
+            <video width="320" controls>
+                <source src="countdown1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <iframe 
+            width="1280" 
+            height="720" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="Rick Astley - Never Gonna Give You Up (Official Music Video)" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+            </iframe>
+            <video controls>
+                <source src="countdown2.mkv" type="audio/mkw">
+                Your browser does not support the audio tag.
+            </audio>
+            <video controls>
+                <source src="countdown1.mp4" type="audio/mp4">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section id="reviews">
+            <h2>Submit a Review</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="nature">აირჩიე</label><br>
+                <select id="nature" name="nature">
+                    <option value="1">ზღვა</option>
+                    <option value="2">ოკეანე</option>
+                    <option value="3">ტბა</option>
+                    <option value="4">მდინარე</option>
+                    <option value="5">ჩანჩქერი</option>
+                </select><br><br>
+                <button type="submit">Submit</button>
+            </form>
+            <hr>
+        </section>
+    </main>
+
+
+        
+        <label for="sport">აირჩიე სპორტის ერთ ერთი სახეობა :</label>
+        <select id="sport">
+            <option value="basketboll">basketboll</option>
+            <option value="football">football</option>
+            <option value="ragbi">ragbi</option>
+        </select>
+</body>
+</html>

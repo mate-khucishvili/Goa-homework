@@ -1,0 +1,31 @@
+
+.container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    margin-bottom: 15px;
+}
+
+
+.div1 p {
+    color: #2c3e50;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3);
+}
+
+
+.div2 p {
+    color: #8e44ad;
+    text-decoration: overline;
+    text-shadow: 3px 3px 5px rgb(142, 68, 173, 0.5);
+}
+
+
+.div3 p {
+    color: #e74c3c;
+    text-decoration: line-through;
+    text-shadow: 1px 1px 3px rgb(231, 76, 60, 0.6);
+}

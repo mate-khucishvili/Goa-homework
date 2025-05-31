@@ -1,0 +1,38 @@
+
+.holiday {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+
+  .holiday img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .holiday {
+      width: 90%;
+    }
+    .holiday img {
+      max-width: 80%;
+    }
+    .holiday p {
+      font-size: 0.9em;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .holiday {
+      width: 100%;
+    }
+    .holiday img {
+      max-width: 60%;
+    }
+    .holiday p {
+      font-size: 0.8em;
+    }
+  }

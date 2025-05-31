@@ -1,0 +1,24 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: changeSizeColor 5s infinite alternate; /* 5 წამი გრძელდება უსასრულოდ მეორდება და წინ-უკან მოძრაობს */
+  }
+  
+  @keyframes changeSizeColor {
+    25% {
+      width: 150px;
+      height: 150px;
+      background-color: yellow;
+    }
+    50% {
+      width: 150px;
+      height: 150px;
+      background-color: yellow;
+    }
+    100% {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+  }

@@ -1,0 +1,14 @@
+.box3 {
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+  animation: changeBoxSizeColor 5s 2s infinite alternate; /* 5 წამიანი ანიმაცია 2 წამის ფერს იცვლის უსასრულოდ წინ და უკან */
+}
+
+@keyframes changeBoxSizeColor {
+  100% {
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+  }
+}

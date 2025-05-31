@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.item {
+    background-color: beige;
+}
+
+.sidebar-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.main-content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.sidebar-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.footer {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}

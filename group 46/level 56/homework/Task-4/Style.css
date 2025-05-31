@@ -1,0 +1,10 @@
+.myImage {
+    width: 300px;
+    height: 300px;
+    transition: transform 0.5s ease;
+  }
+  
+  .myImage:hover {
+    transform: translate(150px, -200px) scale(0.5);
+    border-radius: 50%;
+  }

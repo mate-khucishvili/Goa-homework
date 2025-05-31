@@ -1,0 +1,25 @@
+.responsive-div {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+
+  @media (max-width: 1200px) {
+    .responsive-div {
+      width: 40%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .responsive-div {
+      width: 20%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .responsive-div {
+      width: 10%;
+    }
+  }

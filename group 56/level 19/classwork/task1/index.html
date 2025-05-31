@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ვიდეოები და აუდიო</h1>
+
+    <!-- ვიდეო video თეგით -->
+    <h2>ვიდეო - video თეგის გამოყენებით</h2>
+    <video controls muted width="600">
+        <source src="countdown1.mp4" type="video/mp4">
+        <source src="countdown2.mkv" type="video/mkv">
+        თქვენი ბრაუზერი არ უჭერს მხარს ვიდეო ფორმატს
+    </video>
+
+    <!-- ვიდეო iframe-ით -->
+    <h2>ვიდეო - iframe-ის გამოყენებით</h2>
+    <iframe width="1280" height="720" 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    title="Rick Astley - Never Gonna Give You Up (Official Music Video)" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+    </iframe>
+
+    <!-- აუდიო audio თეგით -->
+    <h2>აუდიო - audio თეგის გამოყენებით</h2>
+    <audio controls muted>
+        <source src="intro.mp3" type="audio/mp3">
+        <source src="intro2.wav" type="audio/wav">
+        თქვენი ბრაუზერი არ უჭერს მხარს აუდიოს ფორმატს
+    </audio>
+
+    <h1>Application Form</h1>
+    <form>
+        
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+        
+        
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        
+        
+            <label for="dob">Date and Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+        
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+        
+        
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        
+        
+            <label>რომელ დონეზე ხარ პროგრამირებაში:</label>
+            <input type="radio" id="junior" name="position" value="junior" required>
+            <label for="junior">Junior Developer</label>
+            <input type="radio" id="mid" name="position" value="mid">
+            <label for="mid">Mid-level Developer</label>
+            <input type="radio" id="senior" name="position" value="senior">
+            <label for="senior">Senior Developer</label>
+        
+        
+            <label>პროგრამირებაში ენები აირჩიე:</label><br>
+            <input type="checkbox" id="java" name="languages" value="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="javascript" name="languages" value="javascript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="checkbox" id="python" name="languages" value="python">
+            <label for="python">Python</label><br>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        
+    </form>
+
+    <h1>აპლიკაციის რეგისტრაცია</h1>
+    <form>
+        
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+        
+        
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        
+        
+            <label for="dob">Date and Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        
+        
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+        
+        
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        
+        
+            <label>Positions Available:</label>
+            <input type="radio" id="junior" name="position" value="junior" required>
+            <label for="junior">Junior Developer</label>
+            <input type="radio" id="mid" name="position" value="mid">
+            <label for="mid">Mid-level Developer</label>
+            <input type="radio" id="senior" name="position" value="senior">
+            <label for="senior">Senior Developer</label>
+        
+        
+            <label>Programming Languages:</label>
+            <input type="checkbox" id="java" name="languages" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="javascript" name="languages" value="javascript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="python" name="languages" value="python">
+            <label for="python">Python</label>
+        
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+        
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        
+        
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        
+    </form>
+
+    <h2>დალაგებული სია</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ol>
+
+    <h2>დაულაგებელი სია</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Data Science</li>
+        <li>Artificial Intelligence</li>
+        <li>Machine Learning</li>
+        <li>Cloud Computing</li>
+    </ul>
+
+    <h2>Dropdown Menu</h2>
+    <label for="department">Choose a Department:</label>
+    <select id="department" name="department">
+        <option value="web-dev">Web Development</option>
+        <option value="data-science">Data Science</option>
+        <option value="ai">Artificial Intelligence</option>
+        <option value="ml">Machine Learning</option>
+        <option value="cloud">Cloud Computing</option>
+    </select>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2AB3B1, #4ECDC4); /*ქმნის დიაგონალურ ფერთა გადასვლა ეს გრადიენტის კოდი ინტერნეტში ვნახე არ მეჩხუბოთ */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background: white;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    overflow: hidden; /* მალავს ელემენტის საზღვრებს გარეთ გამოჩენილ შიგთავსს ანი კუთხეებს */
+    position: relative;/* ელემენტს აძლევს მდებარეობის ცვლილების შესაძლებლობას მისი ნორმალური (default) პოზიციის მიმართ */
+}
+.header {
+    background: url('bg-pattern-card.svg');
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%); /* ელემენტის გადაადგილებას 50%-ით მარცხნივ მისი სიგრძის მიხედვით*/
+}
+.info {
+    padding: 60px 20px 20px;
+}
+.info h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+.info p {
+    margin: 5px 0;
+    color: #777;
+    font-size: 14px;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    background: #F8F9FD;
+}
+.stats div {
+    text-align: center;
+}
+.stats strong {
+    font-size: 18px;
+    color: #333;
+}

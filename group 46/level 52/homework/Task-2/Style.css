@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c5d9b7; 
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 35px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
+    width: 500px; 
+}
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2e6245; 
+    font-size: 26px;
+    font-weight: 600; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #444;
+    font-size: 15px;
+}
+
+.form-input,
+.form-textarea {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1.5px solid #ddd; /*ცოტათი სქელი საზღვარი */
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 100px; /* ცოტათი გაზრდილი სიმაღლე */
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-radio {
+    margin-right: 6px;
+}
+
+.radio-label {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.form-checkbox {
+    margin-right: 6px;
+}
+
+.submit-button {
+    background-color: #3cb371; 
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.submit-button:hover {
+    background-color: #2e8b57; 
+}
+
+.required {
+    color: #ff4500;
+    font-size: 15px;
+}
