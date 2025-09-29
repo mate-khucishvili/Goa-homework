@@ -1,0 +1,31 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .content {
+      width: 40%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content {
+      width: 20%;
+    }
+  }

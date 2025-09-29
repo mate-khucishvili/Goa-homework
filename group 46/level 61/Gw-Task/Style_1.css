@@ -1,0 +1,324 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Colors */
+.lurji {
+    background: #0066cc;
+    color: white;
+}
+
+.shavi {
+    background: #2c3e50;
+    color: white;
+}
+
+.qviteli {
+    color: #ff9900;
+}
+
+/* Header */
+.satauri {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+.navi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navi a {
+    margin: 5px 10px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navi a:hover {
+    color: #0066cc;
+}
+
+/* Buttons */
+.buttoni {
+    background: #ff9900;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.buttoni:hover {
+    background: #e68a00;
+}
+
+/* Main sections */
+.mtavari {
+    background: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.mtavari::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.kontenti {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Services */
+.servisebi {
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.satauri-servisebi {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.satauri-servisebi h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.satauri-servisebi::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ff9900;
+    margin: 10px auto;
+}
+
+.servisebi-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.servisi {
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.servisi-img {
+    height: 180px;
+    overflow: hidden;
+}
+
+.servisi-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.servisi:hover .servisi-img img {
+    transform: scale(1.1);
+}
+
+.servisi-text {
+    padding: 15px;
+}
+
+/* About */
+.chvens-shesaxeb {
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.satauri-about {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.statistika {
+    display: grid;        /* თუ არის დამატებითი სივრცე ქმნის დამატებით სვეტებს */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* მინიმუმ 120px თუ არ ეტევა გადადის შემდეგ ხაზზე
+    მაქსიმუმ 1fr თანაბრად იყოფა დარჩენილი სივრცე*/
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.statistikis-elementi {
+    text-align: center;
+}
+
+.statistikis-ricxvi {
+    font-size: 1.8rem;
+    font-weight: bold; /* აქცევს ტექსტს მსხვილად */
+} 
+
+/* Footer Stili */
+.footeri {
+    padding: 40px 15px 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto; /* ზედა და ქვედა მარგინი 0 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-section {
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff9900;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-section {
+        min-width: 100%;
+    }
+}
+/* Media queries */
+@media (min-width: 768px) {
+    .logo {
+        font-size: 2.5rem;
+    }
+    
+    .mtavari h1 {
+        font-size: 2.2rem;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .navi a {
+        margin: 0 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mtavari {
+        min-height: 400px;
+    }
+    
+    .mtavari h1 {
+        font-size: 2.5rem;
+    }
+    
+    .satauri-servisebi h2 {
+        font-size: 2rem;
+    }
+}

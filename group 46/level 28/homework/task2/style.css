@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(36, 36, 36, 0.854);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+}
+
+.food {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 250px;
+}
+
+.food h2 {
+    color: orange;
+}
+
+.food p {
+    color: lightblue;
+}

@@ -1,0 +1,23 @@
+.redDiv {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blackDiv {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: transform 0.5s ease;
+  }
+  
+  .redDiv:hover .blackDiv {
+    transform: rotate(180deg);
+  }

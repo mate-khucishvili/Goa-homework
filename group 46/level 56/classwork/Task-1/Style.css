@@ -1,0 +1,11 @@
+.color-change-div {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin: 100px auto; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .color-change-div:hover {
+    background-color: blue;
+  }

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.horizontal {
+    justify-content: space-between;
+}
+.vertical {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reverse-horizontal {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.reverse-vertical {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.item {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}

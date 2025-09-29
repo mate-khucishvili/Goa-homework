@@ -1,0 +1,45 @@
+/* --------------------------------
+        ვშლით ყველა ელემენტის ანუ margin-სა და padding-ით
+        ასევე ვუთითებთ box-sizing border-box რომელიც ცვლის width/height 
+        --------------------------------
+*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* body-ს ვაძლევთ height:100vh-ს რადგან ეკრანის მთლიან სიმაღლეს შეესაბამებოდეს */
+    body {
+        height: 100vh;
+        font-family: sans-serif;
+    }
+
+    /* ---------------- Box-sizing ახსნა ----------------
+        box-sizing: content-box - width height ითვლის მხოლოდ content
+        box-sizing: border-box - width height ითვლის content+padding+border
+    */
+
+    /* ---------------- Position: relative ახსნა ----------------
+        position: relative ტოვებს ელემენტს თავის ჩვეულებრივ ადგილზე
+        მაგრამ top-left-right-bottom მნიშვნელობები შეიძლება შევცვალოთ
+        სხვა ელემენტებიკი დარჩებიან თითქოს არაფერი შეცვლილა
+    */
+    .my-div {
+        width: 200px;
+        height: 150px;
+        background-color: coral;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+
+    header {
+        background-color: lightblue;
+        text-align: center;
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }

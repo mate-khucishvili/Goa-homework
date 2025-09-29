@@ -1,0 +1,25 @@
+.brick-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px;
+}
+.brick-item {
+    background-color: green;
+    border: 1px solid black;
+}
+.large {
+    width: 100px;
+    height: 40px;
+}
+.medium {
+    width: 60px;
+    height: 40px;
+}
+.small {
+    width: 30px;
+    height: 40px;
+}

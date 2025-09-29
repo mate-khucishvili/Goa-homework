@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    margin: 0;
+}
+.container {
+    width: 700px;
+    background: #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+.box {
+    background: gray;
+    flex-grow: 1;
+    height: 100px;
+}
+.large {
+    height: 150px;
+}
+.small-box {
+    height: 50px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}

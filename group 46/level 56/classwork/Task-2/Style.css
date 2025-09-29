@@ -1,0 +1,12 @@
+
+.transform-div {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 200px auto; /* გაცენტვრა */
+    transition: transform 0.3s ease; /* ანიმაციისთვის */
+  }
+
+  .transform-div:hover {
+    transform: translateX(-50px) translateY(100px) scale(2) rotate(-180deg);
+  }

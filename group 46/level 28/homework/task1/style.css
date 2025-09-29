@@ -1,0 +1,26 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.animal {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 250px;
+}
+
+.animal img {
+    width: 100%;
+}
+
+.animal h2 {
+    color: #444;
+}
+
+.animal p {
+    color: #444;
+}

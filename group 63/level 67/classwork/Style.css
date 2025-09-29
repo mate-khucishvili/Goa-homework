@@ -1,0 +1,34 @@
+    /* 
+    box-sizing არის CSS-კოდი რომელიც განსაზღვრავს 
+    თუ როგორ უნდა გამოითვალოს ელემენტის ზომა width და height
+    */
+    /* 
+    content-box: width და height ეხება 
+    მხოლოდ content-ს padding და border ემატება დამატებით
+    ანუ ელემენტი არ იზრდება ზომაში padding-ის ან border-ის მატულობს ნიშანს
+    */
+    /* 
+    CSS reset გამოიყენება იმისთვის რომ ყველა ბრაუზერში 
+    ერთნაირი საწყისი სტილები იყოს
+    ბრაუზერები ელემენტებს ნაგულისხმევად აძლევენ განსხვავებულ მარჯინებს და პადინგებს და reset მათ აუქმებს 
+    */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;               /* body-ს სიმაღლე სრულ ეკრანზე */
+        display: flex;               /* flexbox გამოყენება */
+        justify-content: center;     /* ჰორიზონტალურად ცენტრში */
+        align-items: center;         /* ვერტიკალურად ცენტრში */
+        background: #f0f0f0;         /* ფონის ფერი */
+    }
+
+    .my-box {
+        width: 200px;
+        height: 200px;
+        background: tomato;          /* div-ის ფონი */
+    }
