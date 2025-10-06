@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        background: #f4f4f4;
+        position: relative;
+    }
+
+    .box-relative {
+        width: 150px;
+        height: 150px;
+        background: teal;
+        position: relative;
+        top: 200px;
+        left: 200px;
+    }
+
+    .box-absolute {
+        width: 150px;
+        height: 150px;
+        background: crimson;
+        position: absolute;
+        bottom: 150px;
+        right: 0;
+    }

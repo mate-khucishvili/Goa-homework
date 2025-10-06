@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 20px;
+    padding: 50px;
+}
+
+.text-car {
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.nock-1{
+    padding: 15px 30px;
+    margin: 0 15px;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 1s, transform 0.3s;
+}
+.nock-2{
+    padding: 15px 30px;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 1s, transform 0.3s;
+}
+
+.nock-1:hover{
+    background-color: #464646;
+    transform: scale(1.1); 
+}
+.nock-2:hover{
+    background-color: #8c8c8c;
+    transform: scale(1.1); 
+}
+
+
+/* ------------------------------------------------------- */
+
+.bamper{
+    width: 600px ;
+    height: 400px;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+.text-speed{
+    font-size: 80px;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+.text-bamber{
+    font-size: 80px;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
