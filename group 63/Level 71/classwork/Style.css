@@ -1,0 +1,58 @@
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #a5a37c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+p {
+    font-size: 16px;
+}
+.card-all {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gavcentrot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    width: 200px;
+    height: 160px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.japan {
+    background-image: url(image1.jpg);
+}
+.dubai {
+    background-image: url(image2.jpg);
+}
+.paris {
+    background-image: url(image3.jpg);
+}
+.tbilisi {
+    background-image: url(tbilisi.jpg);
+}
+.newyork {
+    background-image: url(image4.jpg);
+}
+.korea {
+    background-image: url(image5.jpg) 
+}

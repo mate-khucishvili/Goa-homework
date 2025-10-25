@@ -1,0 +1,126 @@
+.CosmicCanvas {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #242424; 
+    color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    width: 100%;
+}
+
+.CenteringCrucible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.AuraVault {
+    width: 350px; 
+    padding: 40px 35px; 
+    background-color: #1a1a1a; 
+    border-radius: 18px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.FocusCore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.AvatarSphere {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border: 3px solid rgba(255, 255, 255, 0.15); 
+}
+
+.AvatarSphere img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.StellarDesignation {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    color: #FF7B54;
+    text-transform: uppercase;
+}
+
+.PersonaHandle {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #f7f7f7;
+}
+
+.NarrativeSnippet {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 35px 0;
+    color: #aaaaaa; 
+}
+
+.HyperLink {
+    color: #ff9933; 
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.ActionPortal {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 45px;
+    background: linear-gradient(135deg, #e91e63 0%, #ff8a00 100%);
+    box-shadow: 0 4px 15px rgba(255, 138, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ActionPortal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.6);
+}
+
+.ActionIcon {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.NexusGrid {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.NexusGrid a {
+    color: #dddddd;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    transition: color 0.3s;
+}
+
+.NexusGrid a:hover {
+    color: #ff8a00; 
+}

@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* DARK NAVBAR */
+.DARK-bar {
+    background-color: #0a092d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 40px;
+    font-size: 14px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bots {
+    display: flex;
+    gap: 5px;
+}
+
+.bots {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #d71920;
+}
+
+.blue {
+    background-color: #004d98;
+}
+
+.view {
+    background-color: #ffb400;
+    border: none;
+    color: #111;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view {
+    background-color: #d71920;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lang {
+    background-color: #23233b;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* ⚪ MAIN WHITE NAVBAR */
+.main-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 55px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.search {
+    font-size: 20px;
+    cursor: pointer;
+}
+/* -------------- */
+.homster {
+    width: 100%;
+    height: 400px;
+}
+
+.back-ground {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('mini__GP28044.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.num {
+    position: absolute;
+    top: 50%;
+    left: 850px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* -------------- */
