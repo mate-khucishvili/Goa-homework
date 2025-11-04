@@ -1,0 +1,33 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+}
+
+.parent {
+    background-color: #fff4e6;
+    gap: 10px;
+}
+
+.parent{
+    font-size: 40px;
+}
+
+.parent>div {
+    background-color: #1c1c1c;
+    padding: 1em;
+    color: #d9480f;
+}
+
+.nested {
+    background-color: #1c1c1c;
+    padding: 1em;
+}
